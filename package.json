@@ -1,0 +1,23 @@
+{
+  "name": "aes-app",
+  "version": "1.0.0",
+  "description": "aes app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "aldidas",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "bootstrap-sass": "^3.3.6",
+    "express": "^4.13.4",
+    "sequelize": "^3.19.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-ng-annotate": "^1.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
