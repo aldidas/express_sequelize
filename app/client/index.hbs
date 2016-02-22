@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Blog Reader</title>
+	<link rel="stylesheet" href="{{ assetPath "style.min.css" }}">
+</head>
+<body ng-app="app">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h1>Blog Reader</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8">
+				<ng-view></ng-view>
+			</div>
+		</div>
+	</div>
+	<script src="{{ assetPath "app.min.js" }}"></script>
+</body>
+</html>
