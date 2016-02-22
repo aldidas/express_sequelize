@@ -1,0 +1,14 @@
+<form>
+	<div class="form-group">
+		<label>Title</label>
+		<input ng-model="create.data.title" class="form-control" type="text">
+	</div>
+	<div class="form-group">
+		<label for="">Content</label>
+		<textarea class="form-control" ng-model="create.data.content" cols="30" rows="10"></textarea>
+	</div>
+	<div class="form-group">
+		<a href="#/" class="btn btn-primary">Back</a>
+		<button ng-click="create.create()" ng-disabled="!create.data.title || !create.data.content" class="btn btn-success">Save Post</button>
+	</div>
+</form>

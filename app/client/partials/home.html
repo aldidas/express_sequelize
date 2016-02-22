@@ -1,0 +1,6 @@
+<div ng-repeat="post in home.posts track by $index">
+	<h3><a ng-href="#/post/{{ post.id }}">{{ post.postTitle }}</a></h3>
+	<div ng-bind-html="post.postContent"></div>
+</div>
+<hr>
+<a href="#/create" class="btn btn-success">Create New Post</a>
