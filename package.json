@@ -8,16 +8,42 @@
   },
   "author": "aldidas",
   "license": "MIT",
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/aldidas/express_sequelize.git"
+  },
   "dependencies": {
     "angular": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "angular-sanitize": "^1.5.0",
+    "body-parser": "^1.15.0",
     "bootstrap-sass": "^3.3.6",
     "express": "^4.13.4",
-    "sequelize": "^3.19.3"
+    "jquery": "^2.2.0",
+    "sequelize": "^3.19.3",
+    "sqlite3": "^3.1.1"
   },
   "devDependencies": {
+    "browserify": "^13.0.0",
+    "del": "^2.2.0",
     "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cache": "^0.4.2",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^2.0.0",
     "gulp-ng-annotate": "^1.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^7.0.0",
     "gulp-sass": "^2.2.0",
-    "gulp-sourcemaps": "^1.6.0"
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.2",
+    "jshint": "^2.9.1",
+    "stripify": "^4.0.0",
+    "through2": "^2.0.1",
+    "vinyl-transform": "^1.0.0"
   }
 }
